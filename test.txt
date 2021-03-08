@@ -1,1 +1,12 @@
-fsdf
+Public Sub pressKey(keyIn)
+		oKey.PressKey keyIn
+		wait 0.5
+	End Sub
+	
+	Public sub ctrlZero()
+		oKey.KeyDown key_lCtrl
+		wait 0.2
+		oKey.PressKey key_0
+		wait 0.2
+		oKey.KeyUp key_lCtrl
+	end sub
