@@ -1,8 +1,0 @@
-Public Sub pressKey(keyIn)
-	k
-		wait 0.5
-	End Sub
-	
-	Public sub ctrlZero()
-klk
-	end sub
